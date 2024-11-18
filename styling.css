@@ -1,0 +1,792 @@
+*{
+    box-sizing: border-box;
+    /*border: 0.5px solid black;*/
+    font-family:Verdana, Arial, sans-serif;
+}
+body{
+    display: block;
+}
+/* 1st page styling */
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    background:linear-gradient(0deg, rgb(249, 249, 249),20%, rgba(19, 19, 19, 0.188)), url(images/travel.jpg);
+    background-size:cover;
+    color: white;
+    background-position: center center;
+    background-repeat:no-repeat;
+    min-height: 50vh;
+    height: 100vh; /* Full viewport height */
+   
+}
+
+header .header{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   color: #fff;
+   width: 98%;
+   height: 70px;
+   /* apparently a common height for navbar */
+   top: 0px;
+   padding: 0 30px;
+   }
+
+.logo {
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative;
+    float: left;
+    width: 10%;
+  }
+ /* Centered section inside the top navigation */
+nav {
+    position: relative;
+    width: auto;
+    margin: 0 auto;
+  } 
+
+  nav a{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin: 25px 10px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  width: auto;
+  }
+.header-right {
+    font-size: 30px;
+  }
+
+.orange{
+    color: orange;
+}
+.white{
+    color: white;
+}
+.main-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 90%;
+    padding-right: 2%;
+    
+}
+
+.main-section h2{
+    width: 580px;  /* Set the width of the box */
+    height:fit-content; /* Set the height of the box */
+    padding: 5px; /* Adjust the padding inside the box */
+    word-wrap: break-word;
+    margin: 20px; 
+    font-size:50px;
+}
+
+.main-section p{
+    width: 400px;
+    font-size: x-small;
+}
+
+.main-section button{
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 30px;
+    text-align: center;
+    font-size: 14px;
+    margin: 20px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+/* 2nd page styling */
+#aboutus {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: black;
+    
+    }
+
+.aboutus-section1{
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+    height: 25vh; 
+    /* background-color: blue; */
+
+
+}
+.bg-grey{
+  background-color: #e9e7e7;
+}
+.bookingsection{
+  justify-content: space-evenly;
+}
+
+section .aboutus-section1-booking-format{
+    height: 20vh;
+    width: 45vh;
+    /* background-color: rgba(120, 122, 122, 0.304); */
+    text-align: left;
+    padding: 10px 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+      
+}
+
+#ticketbooking, #tourplan {
+    background-color: rgba(120, 122, 122, 0.071);
+}
+
+#hotelbooking {
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.3);
+}
+
+.aboutus-section1-booking-format figure, .aboutus-section1-booking-format p{
+    margin: 0px;
+    padding: 3px 0px;
+}
+
+.aboutus-section1-booking-format p{
+    font-size: 10px;
+}
+.aboutus-section1-booking-format h5{
+    margin: 10px 0px 4px 0px;
+    padding: 4px 0px 4px 0px;
+}
+
+.green{
+    color: green;
+    font-size: 30px;
+}
+
+.blue{
+    color: rgb(44, 131, 236);
+    font-size: 30px;
+}
+
+.red{
+    color: red;
+    font-size: 30px;
+}
+
+/* section 2 of about Us */
+.aboutus-section2{
+    position: relative;
+    margin-top: 10px;
+    align-items:center;
+    background-color: rgb(215, 236, 239);
+    /* background-size:100% 100%;
+    background-position: center center;
+    background-repeat:no-repeat; */
+    
+}
+
+#worldmap{
+    opacity: 0.2;
+    width: 100%;
+    height: 65vh;
+}
+
+.aboutus-section2-subsection1{
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 70vh;
+  transform: translate(-50%, -50%);
+  }
+
+  .aboutus-section2 h3{
+    height:fit-content; /* Set the height of the box */
+    padding: 5px 420px; 
+    word-wrap: break-word;
+    font-size:30px;
+    margin-bottom: 2px;
+    
+}
+.aboutus-section2-subsection1 > p {
+    padding: 5px 470px;
+    font-size:10px;
+    
+    margin: 0px 0px 30px 0px;
+}
+
+.aboutus-section3{
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+    height: 25vh;
+    gap: 10px;
+}
+
+.aboutus-section3 article{
+    background-color: white;
+    height: 25vh;
+    width: 25vh;
+    /* background-color: rgba(120, 122, 122, 0.304); */
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.aboutus-section3 figure{
+    margin: 0px;
+    padding: 10px;
+
+}
+
+.lightgreen{
+    color: rgb(2, 129, 15);
+    font-size: 30px;
+}
+
+.aboutus-section3 figcaption{
+    font-weight: bolder;
+    margin-top: 15px;
+    font-size: 25px;
+}
+.aboutus-section3 p{
+    padding: 0px 30px;
+    margin-top: 15px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: Calibri;
+}
+
+/* 3rd page styling - popular section css  */
+#popular{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: black;
+    min-height: 50vh;
+    height: 100vh; /* Full viewport height */
+    background-image: url(images/worldmap2.png);
+    background-repeat: no-repeat;
+    background-size:46% 100%;
+
+}
+.popular-container{
+   margin: 0px;
+}
+
+/* Best Packages CSS Styling */
+#best-packages{
+    background-color: #e9e7e7;
+    padding-bottom: 25px;
+  }
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #666;
+    cursor: pointer;
+    border-radius: 8px;
+    min-width: 150px;
+    color: #ffffff;
+  }
+  
+  .btn:hover {
+    background-color: #05bc70;
+  }
+  
+  .btn.active {
+    background-color: #05bc70;
+    color: white;
+  }
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 25px;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px 1px #666;
+  }
+  .p-t-25{
+    padding-top: 25px;
+  }
+  .content-info {
+    padding: 20px;
+  }
+  .center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .fw-600{
+    font-weight: 600;
+  }
+  .flex-column{
+    flex-direction: column;
+  }
+  .clearfix {
+    overflow: auto;
+  }
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  #filter-selection{
+      display: flex;
+      justify-content: space-evenly;
+  }
+  .package-img{
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  .fl{
+    float: left;
+  }
+  .fr{
+    float: right;
+  }
+  .know-more span
+  {
+    color: #3c3c3c;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 600;
+  
+  
+  }
+  .location{
+    color: #3c3c3c;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .w-210{
+    width: 210px;
+  }
+  .flex-container {
+    display: flex;
+  }
+  .heading{
+    padding: 17px 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #070707;
+    font-weight: 600;
+    font-size:24px;
+    line-height: 30px;
+    margin: 0px;
+}
+.flex-row-reverse{
+  flex-direction: row-reverse;
+}
+.mr-350{
+  margin-right: 270px;
+}
+.mt-30{
+  margin-top: 0px;
+}
+.left-img-card{
+    background: white;
+    box-shadow: 2px 2px 2px 2px #ccc;
+    margin: 25px;
+    border-radius: 12px;
+    width: 400px;
+    height: 150px;
+}
+.left-img-card figure{
+  margin: 0 10px 0 0;
+  width: 35%;
+  border-radius: 8px;
+}
+.left-img-card figure img{
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.m-10{
+  margin: 10px;
+}
+.flex-grow-1{
+  flex-grow: 1;
+}
+.flex-grow-2{
+  flex-grow: 2;
+}
+.clear{
+    clear: both;
+  }
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+/* @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  } */
+  
+/* review section css */
+/* .scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  
+    .card {
+      display: inline-block;
+      width: 50%;
+    }
+  } */
+
+  /* .card{
+    max-width: fit-content;
+  } */
+
+/* form section  Styling*/
+
+.form-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    height : 55vh;
+}
+
+.form-section > div{
+    width: 65%;
+    position: relative;
+    background-color: rgba(128, 235, 230, 0.349);
+    border-radius: 70px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    padding: 50px;
+    
+}
+.form-section > div > div > p{
+    width: 500px;
+    font-weight: bold;
+    margin: 50px;
+    text-align: center;
+}
+.form-section img{
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    border-radius: 25px;
+}
+.form-section > div > form{
+    width: 50%;
+    border-radius: 70px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.form-section > div > form button{
+        background-color: #04AA6D; /* Green */
+        border: none;
+        color: white;
+        padding: 8px 30px;
+        text-align: center;
+        font-size: 14px;
+        margin: 20px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+} 
+
+.inside-form-align{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    font-weight: bold;
+    font-size: small;
+}
+.inside-form-align input, .inside-form-align textarea{
+    width: 50%;
+}
+    
+
+/* footer styling */
+
+footer{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: smaller;
+    box-shadow: 3px 0px 3px 0px #ccc;
+}
+
+.footer > p{
+    font-size: xx-small;
+}
+
+footer .footersection{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    text-align: left;
+    gap: 95px; 
+    
+}
+
+.footersection section{
+    width: 150px; 
+}
+
+.footer-logo{
+   text-align: center;
+}
+.footer-logo h3{
+    font-size: x-large;
+    margin: 5px 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.footer-logo p{
+    font-size: xx-small;
+   
+}
+
+.footersection ul{
+    list-style-type: none;
+    padding: 0; 
+    margin: 20px 0px;
+    text-align: left;
+    font-size: small;
+    
+}
+
+.footersection li{
+    margin: 5px 0px;
+    padding: 10px 0px;
+    
+}
+.footersection a{
+    text-decoration: none;
+    color: #666;
+    
+}
+
+.footer-store-container{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    text-align: left;
+    width:100%;
+    font-size: xx-small;
+    gap: 8px;
+    color: white;
+}
+.footer-store-subcontainer{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    background-color: black;
+    width: 200px;
+    height: max-content;
+    border-radius: 5px;
+    padding: 0.8px;
+
+}
+.store-logo{
+    width: max-content;
+}
+.store-logo img{
+    margin: 0px 0px;
+    width: 15px;
+   
+}
+
+.logo-content, .logo-content p, .logo-content span{
+    margin: 0px;
+    padding: 0px;
+    font-size: 5px;
+}
+
+.scroller{
+    height: 100vh;
+  
+}
+
+/* Cutomer Review section styling */
+
+.scrolling-wrapper{
+    height: 85%;
+    display: flex;
+    overflow-x: auto;
+    z-index: -1;
+
+}
+/* .scrolling-wrapper::-webkit-scrollbar{
+    width: 20px;
+} */
+.customer-face-review{
+    position: relative;
+    top: -120px;
+    border-radius: 2px;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    height: 65%;
+}
+.destination-review{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.destination-review img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.customer-face-review > img{
+    position: relative;
+    top: -20px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: white;
+    padding:3px;
+    margin: 0px;
+}
+.customer-face-review > p{
+    font-size:small;
+    padding: 1px 25px;
+    margin: 2px 0px;
+    text-align: center;
+   
+}
+
+/* .review{
+    position: relative;
+    top: -130px;
+    border-radius: 25px;
+    background-color: white;
+} */
+
+.scrolling-wrapper .card-scroll{
+    min-width: 600px;
+    height: 300px;
+    text-align: center;
+    /* background-color: #05bc70; */
+    margin: 20px;
+    border-radius: 12px;
+    
+}
+
+
+
+/*CSS CHanges to latest book-your next trip section */
+.align-content-end{
+    align-content: end;
+  }
+  .align-content-baseline{
+    align-content: baseline;
+  }
+  .color-grey{
+    color: #666;
+  }
+  .font-size-14{
+    font-size: 14px;
+  }
+  .color-light-grey{
+    color: #818080;
+  }
+  .bookingsubsection1{
+    width: 80%;
+  }
+  .booking-content{
+    margin: 0 10px;
+  }
+  .bookingsubsection2{
+    margin: 20px;
+  }
+  .overlay-card{
+    background-color: white;
+    box-shadow: 1px 1px 3px 1px #ccc;
+    padding: 10px;
+   max-width:fit-content;
+   border-radius: 12px;
+   margin-top: -160px;
+   z-index: 10000;
+   position: absolute;
+   margin-left: 252px;
+  }
+  /*replace existing css */
+  .bookingsection{
+    justify-content: center;
+  }
+  .font-size-12{
+    font-size: 12px;
+  }
+  .font-size-16{
+    font-size: 16px;
+  }
+  .color-purple{
+    color: rgb(181, 136, 248);
+  }
+  .m-b-5{
+    margin-bottom: 5px;
+  }
+  .m-t-25{
+    margin-top: 25px;
+  }
+  .no-margin{
+    margin: 0;
+  }
+  progress::-moz-progress-bar { background: rgb(181, 136, 248); }
+  progress::-webkit-progress-value { background: rgb(181, 136, 248); }
+  progress { background: rgb(181, 136, 248); }
+  
+  .booking-card {
+      background-color: #FFF;
+      box-shadow: 30px -50px 1000px 0.5px #1c4bd658;
+      border-radius: 15px;
+      overflow: hidden;
+      padding: 1.25rem;
+      position: relative;
+      transition: .15s ease-in;
+  }
+  .booking-card img{
+    border-radius: 12px;
+  }
